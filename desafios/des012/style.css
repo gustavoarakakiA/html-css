@@ -18,6 +18,9 @@ pre {
     white-space: pre-line;
     font-family: var(--font3);
     font-size: 1.2em;
+
+    padding-bottom: 2em;
+    text-shadow: 1px 1px 0px black;
 }
 
 html, body {
@@ -63,6 +66,18 @@ section {
     font-size: 3.5vw;
 }
 
+section#img01 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-attachment: fixed;
+}
+
+section#img02 {
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-attachment: fixed;
+}
+
 section.normal {
     background-color: white;
     color: black;
@@ -71,6 +86,8 @@ section.normal {
 section.imagem {
     background-color: rgb(44, 44, 44);
     color: white;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.444);
 }
 
 section.imagem > pre  {
